@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.howtobeasdet.listener.TestListener"></listener>
+    </listeners>
+    <test name="Ejemplos De Pruebas Con TestNg">
+        <classes>
+            <class name="com.howtobeasdet.todolistapi.User"></class>
+            <!--class name="com.howtobeasdet.todolistapi.Task"></class-->
+        </classes>
+    </test>
+</suite>
